@@ -1,10 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import logoKchefWhite from '../img/logo/kchef_logo_2021_Karla-outline_white.svg'
+import logoChera from '../img/logo/CHERA-Logo_Green.png'
 import facebook from '../img/social/facebook.svg'
-import instagram from '../img/social/instagram.svg'
-import twitter from '../img/social/twitter.svg'
-import vimeo from '../img/social/vimeo.svg'
 import { DonateButton } from './DonateButton'
 
 const Footer = class extends React.Component {
@@ -13,8 +10,8 @@ const Footer = class extends React.Component {
       <footer className="footer has-background-black has-text-white-ter">
         <div className="content has-text-centered">
           <img
-            src={logoKchefWhite}
-            alt="KCHEF"
+            src={logoChera}
+            alt="CHERA"
             style={{ width: '14em', height: '10em' }}
           />
         </div>
@@ -62,19 +59,7 @@ const Footer = class extends React.Component {
           <div style={{ margin: '4em' }}>
             Stay up to date by following us on Facebook:
             <br />
-            <a
-              title="KCHEF Facebook"
-              href="https://www.facebook.com/KaseseCommunityHealthandEducation"
-              className="light-link"
-              style={{ margin: '10px', fontSize: '1.5em' }}
-            >
-              <img
-                src={facebook}
-                alt="KCHEF Facebook"
-                style={{ width: '0.8em', height: '0.8em', marginRight: '4px' }}
-              />
-              KCHEF
-            </a>
+            
             <a
               title="CHERA facebook"
               href="https://www.facebook.com/CHERAhealth/"
@@ -88,8 +73,9 @@ const Footer = class extends React.Component {
               />
               CHERA
             </a>
+            
           </div>
-          <span className="fine-print">{`© ${new Date().getFullYear()} Kasese Community Health and Education Foundation  -  Kasese, Uganda`}</span>
+          <span className="fine-print">{`© ${new Date().getFullYear()} Community Health and Education for Rural Africa `}</span>
           <div>
             <span className="fine-print">
               {' '}

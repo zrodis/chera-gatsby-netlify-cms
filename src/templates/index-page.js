@@ -5,7 +5,7 @@ import Layout from '../components/Layout'
 import { DonateButton } from '../components/DonateButton'
 import Features from '../components/Features'
 import { MainSectionWrapper } from '../components/MainSectionWrapper'
-import logoKchefWhite from '../img/logo/kchef_logo_2021_Karla-outline_white.svg'
+import cheraLogoFullName from '../img/logo/CHERA-Logo_Green.png'
 
 export const IndexPageTemplate = ({
   image,
@@ -37,24 +37,12 @@ export const IndexPageTemplate = ({
           flexDirection: 'column',
         }}
       >
-        <div className="frontpage-header" style={{ padding: '1.2rem' }}>
+        <div className="frontpage-header" >
           <img
-            src={logoKchefWhite}
+            src={cheraLogoFullName}
             style={{ fill: '#fff' }}
-            alt="Adult and child logo"
+            alt="CHERA Logo"
           />
-
-          <h2 className="frontpage-header has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen">
-            {subheading.split('[linebreak]').map((sh) => {
-              return (
-                <React.Fragment key={sh}>
-                  {' '}
-                  {sh}
-                  <br />
-                </React.Fragment>
-              )
-            })}
-          </h2>
         </div>
       </div>
     </div>

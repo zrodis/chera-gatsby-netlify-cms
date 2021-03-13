@@ -6,7 +6,7 @@ export default () => (
     <section className="section">
       <div className="container">
         <div className="content">
-          <h1>Thank you for contacting KCHEF!</h1>
+          <h1>Thank you for contacting CHERA!</h1>
           <p>We will respond as soon as possible.</p>
         </div>
       </div>

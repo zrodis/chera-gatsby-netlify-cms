@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import logoKchef from '../img/logo/kchef_logo_2021_Karla-outline.svg'
+import logoChera from '../img/logo/CHERA-Logo_Badge-White-Green-BG-Square.png'
 import { DonateButton } from './DonateButton'
 
 const Navbar = class extends React.Component {
@@ -35,7 +35,7 @@ const Navbar = class extends React.Component {
   render() {
     return (
       <nav
-        className="navbar is-transparent"
+        className="navbar"
         role="navigation"
         aria-label="main-navigation"
       >
@@ -45,11 +45,11 @@ const Navbar = class extends React.Component {
               <DonateButton />
             </div>
 
-            <Link to="/" id="kchef-logo" className="navbar-item" title="Logo">
+            <Link to="/" id="chera-logo" className="navbar-item" title="Logo">
               <img
-                src={logoKchef}
+                src={logoChera}
                 style={{ maxHeight: '5rem', width: '9rem', height: 'auto' }}
-                alt="KCHEF"
+                alt="CHERA"
               />
             </Link>
 

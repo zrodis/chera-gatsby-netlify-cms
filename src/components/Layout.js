@@ -6,8 +6,8 @@ import './all.sass'
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
 
-export const kasesePurple = '#9A4EAD'
-export const kaseseBlack = '#2b182f'
+export const cheraGreen = '#006838'
+export const cheraYellow = '#DAB027'
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata()

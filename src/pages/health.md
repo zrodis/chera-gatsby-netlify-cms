@@ -4,9 +4,9 @@ title: KCHEF - Health
 image: /img/2021_jan_1_covered_benches.jpg
 heading: Health
 mainpitch:
-    title: KCHEF Health Program
+    title: CHERA Health Program
     description: >
-        Founded in 2002, the KCHEF Medical Center, (formerly the Bishop Masereka Medical Center) responds to the most pressing need of Kasese: to reduce the number of women who die in childbirth and to ensure that all children see their 5th birthday.
+        We look for effective formation of orphans and other vulnerable children in body, mind, and spirit that prepares them to support their families and contribute to their community.
 
 intro:
     blurbs:
@@ -65,3 +65,25 @@ main:
 -   Provided HIV counseling and testing to over 1,000 members of the community
 -   Treated patients with various diagnoses, including typhoid fever, AIDS, hypertension in pregnancy, depression and anxiety, hepatitis B, alcohol and drug abuse, cardiac disease, rabies, epilepsy, and snakebites
 -   Hosts at least one visiting specialist in diverse conditions in an annual health camp
+
+# chera
+
+# expandable PDF goes here
+
+# link to all the other PDFs
+
+Reduces unnecessary loss of life
+
+Protects the health of infants and childrena
+
+Increases the likelihood that children will complete their education
+
+Reduces the numbers of orphans, and attendant risks, including early pregnancy and HIV infection
+
+Strengthens the economy of the community
+
+Treated patients with various diagnoses, including typhoid fever, AIDS, hypertension in pregnancy, depression and anxiety, hepatitis B, alcohol and drug abuse, cardiac disease, rabies, epilepsy, and snakebites
+
+Initiated The Safe Motherhood Busongora (SMB) Free Clinics which provide prenatal services to pregnant women living in the hills above Kasese. These women would not have access to these medical services without the program.
+
+KCHEF began a collaboration between The Alumni-Guardian Maize Mill and The Maize Mill, an economic partnership among the Alumni-Guardian Association which seeks to use its profits to cover its entire education costs of primary-age orphans in the community.

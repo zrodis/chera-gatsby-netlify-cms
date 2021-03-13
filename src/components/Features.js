@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
-import { kaseseBlack } from '../components/Layout'
+import { cheraGreen } from '../components/Layout'
 
 const isWide = (count, index) => {
   const isOdd = count % 2 ? 1 : 0
@@ -22,7 +22,7 @@ const FeatureGrid = ({ gridItems }) => (
           <section
             className="section"
             style={{
-              background: kaseseBlack,
+              background: cheraGreen,
               color: '#fff',
               borderRadius: '5px',
               padding: '1.5rem',

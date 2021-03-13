@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'KCHEF - Kasese Community Health and Education Foundation',
+    title: 'CHERA - Community Health and Education for Rural Africa',
     description:
       'Working to transform healthcare delivery and educational opportunities in the Rwenzori region of Uganda.',
   },

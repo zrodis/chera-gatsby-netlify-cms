@@ -1,13 +1,13 @@
 ---
 templateKey: index-page
-title: KCHEF - Kasese Community Health and Education Foundation
+title: CHERA - Community Health and Education for Rural Africa
 image: /img/home_page_collage.png
-heading: KCHEF
-subheading: 'Kasese Community[linebreak]Health and Education Foundation'
+heading: CHERA
+subheading: 'Community Health and Education[linebreak]for Rural Africa'
 mainpitch:
     title: Rebuilding a community through health and education
     description: >
-        The Kasese Community Health and Education Foundation works to transform healthcare delivery and educational opportunities in the Rwenzori region of Uganda.
+        Community Health and Education for Rural Africa works to transform healthcare delivery and educational opportunities in the Rwenzori region of Uganda.
 
 intro:
     blurbs:
@@ -18,5 +18,5 @@ intro:
         - image: /img/education2-1.png
           heading: Education
           text: >
-              The KCHEF Education Program provides for education and resources to promising students so that the region's most vulnerable children may complete their education and lead their community into the future. With these pillars of stability in place, hope and progress are real and growing in the Rwenzori region of western Uganda.
+              The CHERA Education Program provides for education and resources to promising students so that the region's most vulnerable children may complete their education and lead their community into the future. With these pillars of stability in place, hope and progress are real and growing in the Rwenzori region of western Uganda.
 ---
