@@ -6,6 +6,8 @@ import { DonateButton } from '../components/DonateButton'
 import Features from '../components/Features'
 import { MainSectionWrapper } from '../components/MainSectionWrapper'
 import cheraLogoFullName from '../img/logo/CHERA-Logo_Green.png'
+import { FaClinicMedical } from 'react-icons/fa'
+import { HTMLContent } from '../components/Content'
 
 export const IndexPageTemplate = ({
   image,
@@ -15,6 +17,7 @@ export const IndexPageTemplate = ({
   mainpitch,
   description,
   intro,
+  content,
 }) => (
   <div>
     <div
@@ -40,7 +43,7 @@ export const IndexPageTemplate = ({
         <div className="frontpage-header" >
           <img
             src={cheraLogoFullName}
-            style={{ fill: '#fff' }}
+            style={{ fill: '#fff', height: '150px' }}
             alt="CHERA Logo"
           />
         </div>
@@ -59,7 +62,12 @@ export const IndexPageTemplate = ({
           </div>
         </div>
 
+        
+
+
         <Features gridItems={intro.blurbs} />
+
+        <HTMLContent className="content" content={content} />
 
         <div className="columns">
           <div
@@ -109,6 +117,7 @@ const IndexPage = ({ data }) => {
         mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
         intro={frontmatter.intro}
+        content={data.markdownRemark.html}
       />
     </Layout>
   )
@@ -127,6 +136,7 @@ export default IndexPage
 export const pageQuery = graphql`
   query IndexPageTemplate {
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
+      html
       frontmatter {
         title
         image {

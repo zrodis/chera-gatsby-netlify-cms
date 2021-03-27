@@ -29,4 +29,4 @@ EducationPreview.propTypes = {
   getAsset: PropTypes.func,
 }
 
-export default HealthPagePreview
+export default EducationPreview
