@@ -115,8 +115,17 @@ h1, h2, h3, h5, h5, h6
 .margin-top-0
   margin-top: 0 !important
 
+#navbar-item
+  color: $primary-invert
+  font-weight: 700
+  font-size: 1.2em
+  font-family: $header-font
+a#navbar-item:hover
+  background-color: transparent
+  color: $primary-invert
+
 .navbar-item .icon
-  color: $primary
+  color: $primary-invert
 // Override for use of svg's from https://simpleicons.org/
 .icon svg
   width: 1.5rem
@@ -133,7 +142,7 @@ $menu-item-color: $white-ter
 $menu-item-hover-color: $black !important
 $menu-item-hover-background-color: $black
 $menu-item-active-color: $chera-green
-$menu-item-active-background-color: 	$$chera-yellow
+$menu-item-active-background-color: $chera-yellow
 $menu-list-border-left: 1px solid #fff
 $menu-label-color: $white-ter
 

@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import logoChera from '../img/logo/CHERA-Logo_Badge-White-Green-BG-Square.png'
 import { DonateButton } from './DonateButton'
+import { cheraYellow } from './Layout'
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -41,17 +42,18 @@ const Navbar = class extends React.Component {
       >
         <div className="container">
           <div className="navbar-brand">
-            <div className="has-text-centered navbar-item">
-              <DonateButton />
-            </div>
+            
 
             <Link to="/" id="chera-logo" className="navbar-item" title="Logo">
               <img
                 src={logoChera}
-                style={{ maxHeight: '5rem', width: '9rem', height: 'auto' }}
+                style={{ maxHeight: '8rem', height: 'auto' }}
                 alt="CHERA"
               />
             </Link>
+            <div className="has-text-centered navbar-item">
+              <DonateButton />
+            </div>
 
             {/* { 
               this.state.navBarActiveClass === '' &&
@@ -77,16 +79,16 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-end has-text-centered">
-              <Link className="navbar-item" to="/about">
+              <Link id="navbar-item" className="navbar-item" activeStyle={{color:cheraYellow}} to="/about">
                 About
               </Link>
-              <Link className="navbar-item" to="/health">
+              <Link id="navbar-item" className="navbar-item" activeStyle={{color:cheraYellow}} to="/health">
                 Health
               </Link>
-              <Link className="navbar-item" to="/education">
+              <Link id="navbar-item" className="navbar-item" activeStyle={{color:cheraYellow}} to="/education">
                 Education
               </Link>
-              <Link className="navbar-item" to="/contact">
+              <Link id="navbar-item" className="navbar-item" activeStyle={{color:cheraYellow}} to="/contact">
                 Contact
               </Link>
             </div>
