@@ -9,7 +9,7 @@ const Navbar = class extends React.Component {
     super(props)
     this.state = {
       active: false,
-      navBarActiveClass: '',
+      navBarActiveClass: 'navbar-active',
     }
   }
 
@@ -68,9 +68,9 @@ const Navbar = class extends React.Component {
               data-target="navMenu"
               onClick={() => this.toggleHamburger()}
             >
-              <span />
-              <span />
-              <span />
+              <span style={{color:'white'}}/>
+              <span style={{color:'white'}}/>
+              <span style={{color:'white'}}/>
             </div>
           </div>
 
