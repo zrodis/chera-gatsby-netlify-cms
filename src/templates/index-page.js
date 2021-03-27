@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import { DonateButton } from '../components/DonateButton'
-import Features from '../components/Features'
+import Features, {Feature} from '../components/Features'
 import { MainSectionWrapper } from '../components/MainSectionWrapper'
 import cheraLogoFullName from '../img/logo/CHERA-Logo_Green.png'
 import { FaClinicMedical } from 'react-icons/fa'
@@ -61,12 +61,11 @@ export const IndexPageTemplate = ({
             </p>
           </div>
         </div>
+        <div className="columns is-multiline">
+          <Feature item={intro.blurbs[0]} to="/health" />
+          <Feature item={intro.blurbs[1]} to="/education" />
 
-        
-
-
-        <Features gridItems={intro.blurbs} />
-
+        </div>
         <HTMLContent className="content" content={content} />
 
         <div className="columns">
