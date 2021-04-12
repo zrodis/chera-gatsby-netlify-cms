@@ -1,4 +1,3 @@
-import { Link } from 'gatsby'
 import React, { useState } from 'react'
 import Layout from '../components/Layout'
 
@@ -7,19 +6,21 @@ interface PdfLinkProps {
     children: React.ReactNode
 }
 const PdfLink = ({ href, children }: PdfLinkProps) => (
-    <button
-        className='button is-medium is-primary is-outlined'
-        style={{ display: 'block', margin: '5px' }}
-    >
-        <a href={href}>{children}</a>
-    </button>
+    <a href={href}>
+        <button
+            className='button is-medium is-primary is-outlined'
+            style={{ display: 'block', margin: '5px' }}
+        >
+            {children}
+        </button>
+    </a>
 )
 
 export default function Reports() {
     return (
         <Layout>
-            <section>
-                <h1> Health and Education Reports </h1>
+            <section className='section'>
+                <h1 style={{ fontSize: '2em' }}> Health and Education Reports </h1>
                 <h2> Download CHERA and KCHEF Reports in PDF format </h2>
                 <div>
                     <PdfLink href='/pdf/KCHEF-Annual-Report-2020.pdf'>2020 Annual Report</PdfLink>
