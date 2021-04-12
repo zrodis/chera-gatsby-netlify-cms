@@ -4,7 +4,6 @@
 -   pdf reports history/view
 
     -   the bootstrap styles aren't showing up
-    -   need the rest of the files - need to label them accurately
 
 -   may need some way to store large binaries
 

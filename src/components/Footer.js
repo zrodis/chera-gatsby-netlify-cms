@@ -46,6 +46,11 @@ const Footer = class extends React.Component {
                         Contact
                       </Link>
                     </li>
+                    <li>
+                      <Link  className="navbar-item" to="/reports">
+                        View all reports
+                      </Link>
+                    </li>
                   </ul>
                 </section>
               </div>
@@ -54,6 +59,7 @@ const Footer = class extends React.Component {
                   buttonProps={{ className: 'is-large button is-white' }}
                 />
               </div>
+              
             </div>
           </div>
           <div style={{ margin: '4em' }}>
