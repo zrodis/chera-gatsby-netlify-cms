@@ -21,7 +21,7 @@ export default function Reports() {
         <Layout>
             <section className='section'>
                 <h1 style={{ fontSize: '2em' }}> Health and Education Reports </h1>
-                <h2> Download CHERA and KCHEF Reports in PDF format </h2>
+                <h2> Download CHERA and KCHEF reports in PDF format </h2>
 
                 <div>
                     <PdfLink href='/pdf/KCHEF-Annual-Report-2020.pdf'>2020 Annual Report</PdfLink>
@@ -45,21 +45,27 @@ export default function Reports() {
                         2017 April Education Report
                     </PdfLink>
                     <h3>2016</h3>
+                    <PdfLink href='/pdf/health/KCHEF-2016-Clinic-Report.pdf'>
+                        2016 Annual Health Clinic Report
+                    </PdfLink>
                     <PdfLink href='/pdf/education/KCHEFEducationSept2016QuarterlyReport.pdf'>
                         2016 September Education Report
                     </PdfLink>
                     <PdfLink href='/pdf/education/Education-Program-Report-KCHEF-June-2016.pdf'>
                         2016 June Education Report
                     </PdfLink>
+
                     <h3>2015</h3>
+
                     <PdfLink href='/pdf/CHERA2015ReissuedReviewFinal.pdf'>
                         2015 Annual Report
+                    </PdfLink>
+                    <PdfLink href='/pdf/health/2015-Annual-Report-Clinic.pdf'>
+                        2015 Annual Health Clinic Report
                     </PdfLink>
                     <PdfLink href='/pdf/education/Annual-Report-2015-Education.pdf'>
                         2015 Annual Education Report
                     </PdfLink>
-
-                    {/* <p>HEALTH</p> */}
                 </div>
                 <div></div>
             </section>
