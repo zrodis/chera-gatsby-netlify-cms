@@ -22,21 +22,46 @@ export default function Reports() {
             <section className='section'>
                 <h1 style={{ fontSize: '2em' }}> Health and Education Reports </h1>
                 <h2> Download CHERA and KCHEF Reports in PDF format </h2>
+
                 <div>
                     <PdfLink href='/pdf/KCHEF-Annual-Report-2020.pdf'>2020 Annual Report</PdfLink>
+
                     <PdfLink href='/pdf/Annual-Report-2019.pdf'>2019 Annual Report</PdfLink>
+                    <h3>2018</h3>
                     <PdfLink href='/pdf/Executive-Summary_SAFE_MOTHERHOOD_2018.pdf'>
                         2018 Safe Motherhood in Busangora Report
                     </PdfLink>
                     <PdfLink href='/pdf/KCHEF_Annual_Report_2018.pdf'>2018 Annual Report</PdfLink>
+                    <h3>2017</h3>
+
                     <PdfLink href='/pdf/2017-Annual-Report-171231.pdf'>2017 Annual Report</PdfLink>
                     <PdfLink href='/pdf/IFRS-Comparison-dollar (2017).pdf'>
                         2017 IFRS Comparison
                     </PdfLink>
+                    <PdfLink href='/pdf/education/Summary-Report-September-2017.pdf'>
+                        2017 September Education Report
+                    </PdfLink>
+                    <PdfLink href='/pdf/education/Quarterly-Report-2017-April.pdf'>
+                        2017 April Education Report
+                    </PdfLink>
+                    <h3>2016</h3>
+                    <PdfLink href='/pdf/education/KCHEFEducationSept2016QuarterlyReport.pdf'>
+                        2016 September Education Report
+                    </PdfLink>
+                    <PdfLink href='/pdf/education/Education-Program-Report-KCHEF-June-2016.pdf'>
+                        2016 June Education Report
+                    </PdfLink>
+                    <h3>2015</h3>
                     <PdfLink href='/pdf/CHERA2015ReissuedReviewFinal.pdf'>
                         2015 Annual Report
                     </PdfLink>
+                    <PdfLink href='/pdf/education/Annual-Report-2015-Education.pdf'>
+                        2015 Annual Education Report
+                    </PdfLink>
+
+                    {/* <p>HEALTH</p> */}
                 </div>
+                <div></div>
             </section>
         </Layout>
     )
