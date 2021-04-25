@@ -1,15 +1,17 @@
 import React, { useState } from 'react'
 import Layout from '../components/Layout'
+import { MainSectionWrapper } from '../components/MainSectionWrapper'
 
 interface PdfLinkProps {
     href: string
     children: React.ReactNode
+    styles?: any
 }
-const PdfLink = ({ href, children }: PdfLinkProps) => (
-    <a href={href}>
+export const PdfLink = ({ href, children, styles }: PdfLinkProps) => (
+    <a href={href} target='_blank'>
         <button
             className='button is-medium is-primary is-outlined'
-            style={{ display: 'block', margin: '5px' }}
+            style={{ display: 'block', margin: '5px,', ...styles }}
         >
             {children}
         </button>
@@ -19,7 +21,7 @@ const PdfLink = ({ href, children }: PdfLinkProps) => (
 export default function Reports() {
     return (
         <Layout>
-            <section className='section'>
+            <MainSectionWrapper>
                 <h1 style={{ fontSize: '2em' }}> Health and Education Reports </h1>
                 <h2> Download CHERA and KCHEF reports in PDF format </h2>
 
@@ -68,7 +70,7 @@ export default function Reports() {
                     </PdfLink>
                 </div>
                 <div></div>
-            </section>
+            </MainSectionWrapper>
         </Layout>
     )
 }

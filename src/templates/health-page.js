@@ -2,11 +2,14 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import { HTMLContent } from '../components/Content'
-import Layout from '../components/Layout'
+import Layout, { cheraYellow } from '../components/Layout'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 import Features from '../components/Features'
 import { MainSectionWrapper } from '../components/MainSectionWrapper'
 import { FullWidthImageHeader } from '../components/FullWidthImageHeader'
+import { FaShieldAlt, FaArrowDown, FaUsers, FaUserMd } from "react-icons/fa";
+import { IoIosTrendingUp } from "react-icons/io";
+import { PdfLink } from '../pages/reports'
 
 export const HealthPageTemplate = (props) => {
   const {
@@ -39,6 +42,31 @@ export const HealthPageTemplate = (props) => {
             </div>
           </div>
           {/* intro */}
+          <table className="table">
+            <tbody>
+              <tr style={{width: '100%', height: '100px'}}>
+                  <td ><FaArrowDown size={50} color={cheraYellow}/></td>
+                  <td className="is-size-4" style={{padding: '10px'}}><strong>Reduces</strong> unnecessary loss of life</td>
+              </tr>
+              <tr style={{width: '100%', height: '100px'}}>
+                  <td ><FaShieldAlt size={50} color={cheraYellow}/></td>
+                  <td className="is-size-4" style={{padding: '10px'}}><strong>Protects</strong> the health of infants and children</td>
+              </tr>
+              <tr style={{width: '100%', height: '100px'}}>
+                  <td ><IoIosTrendingUp size={50} color={cheraYellow}/></td>
+                  <td className="is-size-4" style={{padding: '10px'}}><strong>Increases</strong> the likelihood that children will complete their education</td>
+              </tr>
+              <tr style={{width: '100%', height: '100px'}}>
+                  <td ><FaUsers size={50} color={cheraYellow}/></td>
+                  <td className="is-size-4" style={{padding: '10px'}}><strong>Strengthens</strong> the economy of the community</td>
+              </tr>
+              <tr style={{width: '100%', height: '100px'}}>
+                  <td ><FaUserMd size={50} color={cheraYellow}/></td>
+                  <td className="is-size-4" style={{padding: '10px'}}><strong>Reduces</strong> the numbers of orphans, and attendant risks, including early pregnancy and HIV infection</td>
+              </tr>
+
+            </tbody>
+          </table>
           <Features gridItems={intro.blurbs} />
         </div>
         <div style={{ margin: '5rem' }}></div>
@@ -48,9 +76,14 @@ export const HealthPageTemplate = (props) => {
             <h3 className="has-text-weight-semibold is-size-3">
               {main.heading}
             </h3>
+           <div style={{display:'flex', justifyContent: 'center', margin: '15px'}}>
+            <PdfLink href='/pdf/KCHEF-Annual-Report-2020.pdf'>Read the full report for 2020</PdfLink>
+
+            </div>
             <p>{main.description}</p>
           </div>
         </div>
+       
         <div className="tile is-ancestor">
           <div className="tile is-vertical">
             <div className="tile">
