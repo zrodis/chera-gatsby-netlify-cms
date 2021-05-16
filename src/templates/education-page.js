@@ -1,13 +1,15 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
-import Layout from '../components/Layout'
+import Layout, {cheraYellow} from '../components/Layout'
 import { DonateButton } from '../components/DonateButton'
 import Features from '../components/Features'
 import { HTMLContent } from '../components/Content'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 import { MainSectionWrapper } from '../components/MainSectionWrapper'
 import { FullWidthImageHeader } from '../components/FullWidthImageHeader'
+import { FaSchool } from "react-icons/fa";
+import { IoIosTrendingUp, IoIosSchool } from "react-icons/io";
 
 export const EducationPageTemplate = ({
   image,
@@ -36,6 +38,24 @@ export const EducationPageTemplate = ({
             </div>
           </div>
           {/* intro */}
+          <table className="table">
+            <tbody>
+              <tr style={{width: '100%', height: '100px'}}>
+                  <td ><FaSchool size={50} color={cheraYellow}/></td>
+                  <td className="is-size-4" style={{padding: '10px'}}>33% more likely to finish high school.</td>
+              </tr>
+              <tr style={{width: '100%', height: '100px'}}>
+                  <td ><IoIosSchool size={50} color={cheraYellow}/></td>
+                  <td className="is-size-4" style={{padding: '10px'}}>More likely to complete more than a year of additional education.</td>
+              </tr>
+              <tr style={{width: '100%', height: '100px'}}>
+                  <td ><IoIosTrendingUp size={50} color={cheraYellow}/></td>
+                  <td className="is-size-4" style={{padding: '10px'}}>35% more likely to have a professional job.</td>
+              </tr>
+
+
+            </tbody>
+          </table>
           <Features gridItems={intro.blurbs} />
         </div>
         <div style={{ margin: '5rem' }}></div>

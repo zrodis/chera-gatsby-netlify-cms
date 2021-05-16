@@ -7,7 +7,7 @@ import { MainSectionWrapper } from '../components/MainSectionWrapper'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 export const AboutPageTemplate = (props) => {
-  const { title, content, contentComponent, frontmatter } = props
+  const { title, content, frontmatter } = props
 
   return (
     <MainSectionWrapper>
