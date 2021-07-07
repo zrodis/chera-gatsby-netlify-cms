@@ -2,12 +2,8 @@ import React, { useState } from 'react'
 import Layout from '../components/Layout'
 import { MainSectionWrapper } from '../components/MainSectionWrapper'
 
-interface PdfLinkProps {
-    href: string
-    children: React.ReactNode
-    styles?: any
-}
-export const PdfLink = ({ href, children, styles }: PdfLinkProps) => (
+
+export const PdfLink = ({ href, children, styles }) => (
     <a href={href} target='_blank'>
         <button
             className='button is-medium is-primary is-outlined'
