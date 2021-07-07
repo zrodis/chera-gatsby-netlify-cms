@@ -1,3 +1,6 @@
+-   build error happens ever since this commit c9c1fa46230cb6fc293754461987c32210efea6b (health page)
+-   fixed with `npm rebuild node-sass`
+
 -   front page needs new image (collage?)
 -   health page layout
 -   education page layout
