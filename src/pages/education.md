@@ -29,6 +29,11 @@ main:
         image: /img/facebook_2019.jpg
 ---
 
+Covid has had a tremendous impact on our education program. Schools closed in March, 2020,
+and many have not been reopened. In October, students who were nearing graduation
+returned to school. We continue to struggle to find ways to support our students whether their
+school is open or closed.
+
 # Your Donation Has a Lasting Impact
 
 According to a recent study reported in the Stanford Social Innovation Review, adults who had received charitable sponsorship as children are more likely to finish school, seek higher education, and seek a professional job.

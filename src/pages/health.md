@@ -23,9 +23,14 @@ intro:
 main:
     heading: '2020 RESULTS: OVER 30,000 PATIENTS TREATED'
     description: >
-        With a highly qualified, locally-led medical team, KCHEF attends to up to 2000 patients every month, and treated over 45,000 people since 2012. With a focus on maternal-infant care, the clinic provides skilled assistance during childbirth, including surgical delivery and obstetric emergency care, prevention of mother-to-child transmission of HIV (PMTCT), care for newborns (including premature and SGA infants), infant immunization, treatment for malaria, contraception, and HIV/AIDS testing, counseling and treatment, HIV prevention education in the community, and urgent care for all.
+        Covid 19 continues to present challenges as KCHEF seeks to provide medical services to
+        communities that lack access, have compromised immunity and/or affordability challenges.
+        One of our most utilized initiatives is the Safe Motherhood in Busongora (SMB) outreach
+        program that, despite COVID related service suspension for 3 months, has continued to provide
+        long term family planning, antenatal care services, and child immunizations. Support from the
+        Baylor College of Medicine Children’s Foundation and Uganda Protestant Medical Bureau has
+        enabled us to serve more than 2000 community members infected or affected by HIV/Aids.
 
-        KCHEF contains the only operating theatre in the area. KCHEF lab technicians deliver test results unavailable anywhere else in the region. The clinic includes an ultra sound scanner and radiology services. KCHEF is considered a center of excellence, providing the best care available in Kasese and regularly receiving referrals from other health facilities.
     image1:
         alt: A close-up of a baby
         image: /img/health_baby_eyes_crop.png
@@ -36,3 +41,7 @@ main:
         alt: A group of kids giving thumbs up
         image: /img/2021_jan_2_workers_masks.jpg
 ---
+
+With a highly qualified, locally-led medical team, KCHEF attends to up to 2000 patients every month, and treated over 45,000 people since 2012. With a focus on maternal-infant care, the clinic provides skilled assistance during childbirth, including surgical delivery and obstetric emergency care, prevention of mother-to-child transmission of HIV (PMTCT), care for newborns (including premature and SGA infants), infant immunization, treatment for malaria, contraception, and HIV/AIDS testing, counseling and treatment, HIV prevention education in the community, and urgent care for all.
+
+KCHEF contains the only operating theatre in the area. KCHEF lab technicians deliver test results unavailable anywhere else in the region. The clinic includes an ultra sound scanner and radiology services. KCHEF is considered a center of excellence, providing the best care available in Kasese and regularly receiving referrals from other health facilities.
