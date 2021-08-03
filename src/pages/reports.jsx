@@ -22,6 +22,7 @@ export default function Reports() {
                 <h2> Download CHERA and KCHEF reports in PDF format </h2>
 
                 <div>
+                    <PdfLink href='/pdf/Performance Update 210728.pdf'>2021 Performance Update (July)</PdfLink>
                     <PdfLink href='/pdf/KCHEF-Annual-Report-2020.pdf'>2020 Annual Report</PdfLink>
 
                     <PdfLink href='/pdf/Annual-Report-2019.pdf'>2019 Annual Report</PdfLink>

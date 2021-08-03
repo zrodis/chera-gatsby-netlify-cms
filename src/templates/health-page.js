@@ -77,7 +77,7 @@ export const HealthPageTemplate = (props) => {
               {main.heading}
             </h3>
            <div style={{display:'flex', justifyContent: 'center', margin: '15px'}}>
-            <PdfLink href='/pdf/KCHEF-Annual-Report-2020.pdf'>Read the full report for 2020</PdfLink>
+            <PdfLink href='/pdf/Performance Update 210728.pdf'>View the 2021 Performance Update Report</PdfLink>
 
             </div>
             <p>{main.description}</p>
