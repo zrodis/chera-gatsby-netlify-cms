@@ -30,7 +30,14 @@ export const HealthPageTemplate = (props) => {
     <div>
       <FullWidthImageHeader heading={heading} image={image} />
       <MainSectionWrapper>
+ 
         <div className="content">
+          <div className="tile">
+              <h3 className="title">{"The KCHEF staff extends thanks to St. Anne's Episcopal Church, Annapolis, for their extremely generous donation!"}</h3>
+          </div>
+          <video controls style={{width:"100%", marginBottom:'50px'}} poster="/video/2021_chera_thankyou_poster.png">
+            <source src="/video/2021_chera_thankyou.mp4" type="video/mp4"/>
+          </video>
           <div className="content">
             <div className="tile">
               <h1 className="title">{mainpitch.title}</h1>
