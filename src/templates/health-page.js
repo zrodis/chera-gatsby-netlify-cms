@@ -34,7 +34,7 @@ export const HealthPageTemplate = (props) => {
         <div className="content">
           <div className="tile">
               <h3 className="title">{"The KCHEF staff extends thanks to St. Anne's Episcopal Church, Annapolis, for their extremely generous donation!"}</h3>
-          </div>
+          </div>         
           <video controls style={{width:"100%", marginBottom:'50px'}} poster="/video/2021_chera_thankyou_poster.png">
             <source src="/video/2021_chera_thankyou.mp4" type="video/mp4"/>
           </video>
@@ -47,6 +47,9 @@ export const HealthPageTemplate = (props) => {
                 <strong>{mainpitch.description}</strong>
               </p>
             </div>
+            <video controls style={{width:"100%", marginBottom:'50px'}}>
+              <source src="/video/2021_kchef_hiv_program.mp4" type="video/mp4"/>
+            </video>
           </div>
           {/* intro */}
           <table className="table">
