@@ -47,9 +47,6 @@ export const HealthPageTemplate = (props) => {
                 <strong>{mainpitch.description}</strong>
               </p>
             </div>
-            <video controls style={{width:"100%", marginBottom:'50px'}}>
-              <source src="/video/2021_kchef_hiv_program.mp4" type="video/mp4"/>
-            </video>
           </div>
           {/* intro */}
           <table className="table">
@@ -77,6 +74,15 @@ export const HealthPageTemplate = (props) => {
 
             </tbody>
           </table>
+          <div className="content">
+            <div className="tile">
+                <h3 className="title">{"Supporting Positive Living for People with HIV"}</h3>
+            </div>         
+            <video controls style={{width:"100%", marginBottom:'50px'}}>
+                <source src="/video/2021_kchef_hiv_program.mp4" type="video/mp4"/>
+            </video>
+          
+          </div>
           <Features gridItems={intro.blurbs} />
         </div>
         <div style={{ margin: '5rem' }}></div>
