@@ -39,7 +39,7 @@ export const HealthPageTemplate = (props) => {
             The new Dental Clinic is making great progress! 
           </div>
           <div className="tile">
-            <div style={{display:'flex', justifyContent: 'center', margin: '15px'}}>
+            <div style={{display:'flex', justifyContent: 'center', margin: '15px', marginBottom: '80px'}}>
               <PdfLink href='/pdf/Dental Report 2022.docx'>Click here for the full report.</PdfLink>
 
             </div>
