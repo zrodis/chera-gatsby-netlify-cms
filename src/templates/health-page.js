@@ -33,6 +33,19 @@ export const HealthPageTemplate = (props) => {
  
         <div className="content">
           <div className="tile">
+              <h3 className="title">{"Dental Clinic"}</h3>
+          </div>
+          <div className="tile">
+            The new Dental Clinic is making great progress! 
+          </div>
+          <div className="tile">
+            <div style={{display:'flex', justifyContent: 'center', margin: '15px'}}>
+              <PdfLink href='/pdf/Dental Report 2022.docx'>Click here for the full report.</PdfLink>
+
+            </div>
+
+          </div>         
+          <div className="tile">
               <h3 className="title">{"The KCHEF staff extends thanks to St. Anne's Episcopal Church, Annapolis, for their extremely generous donation!"}</h3>
           </div>         
           <video controls style={{width:"100%", marginBottom:'50px'}} poster="/video/2021_chera_thankyou_poster.png">
