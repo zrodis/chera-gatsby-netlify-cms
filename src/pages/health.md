@@ -21,7 +21,7 @@ intro:
               Treated patients with various diagnoses, including typhoid fever, AIDS, hypertension in pregnancy, depression and anxiety, hepatitis B, alcohol and drug abuse, cardiac disease, rabies, epilepsy, and snakebites
 
 main:
-    heading: '2020 RESULTS: OVER 30,000 PATIENTS TREATED'
+    heading: '2021 RESULTS: OVER 30,000 PATIENTS TREATED'
     description: >
         Covid 19 continues to present challenges as KCHEF seeks to provide medical services to
         communities that lack access, have compromised immunity and/or affordability challenges.
