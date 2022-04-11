@@ -51,6 +51,15 @@ export const IndexPageTemplate = ({
     </div>
     <MainSectionWrapper>
       <div className="content">
+        <div className="tile">
+            <h3 className="title">{"KCHEF Surgerial Services"}</h3>
+        </div>         
+        <video controls style={{width:"100%", marginBottom:'50px'}}>
+            <source src="/video/2021_kchef_hiv_program.mp4" type="video/mp4"/>
+        </video>
+          
+      </div>
+      <div className="content">
         <div id="summary" className="content" style={{ marginBottom: '4rem' }}>
           <div className="tile">
             <h1 className="title">{mainpitch.title}</h1>
