@@ -23,7 +23,8 @@ export default function Reports() {
 
                 <div>
                      <h3>2021</h3>
-                    <PdfLink href='/pdf/KCHEF-Annual-Report-2021.pdf'>2021 Annual Report</PdfLink>
+                    <PdfLink href='/pdf/Annual-Report-2021.pdf'>2021 Annual Report</PdfLink>
+                    <PdfLink href='/pdf/Audit_report_2021_Signed.pdf'>2021 Signed Audit Report</PdfLink>
                     <PdfLink href='/pdf/Performance Update 210728.pdf'>2021 Performance Update (July)</PdfLink>
                     <h3>2020</h3>
                     <PdfLink href='/pdf/KCHEF-Annual-Report-2020.pdf'>2020 Annual Report</PdfLink>
