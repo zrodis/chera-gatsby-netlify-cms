@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Image } from 'react'
 import PropTypes from 'prop-types'
 import { graphql, Link } from 'gatsby'
 import { HTMLContent } from '../components/Content'
@@ -159,7 +159,11 @@ export const HealthPageTemplate = (props) => {
                         <p>{main.description}</p>
                     </div>
                 </div>
-
+                <div className='is-parent'>
+                    <article className='is-child'>
+                        <img src='img/2021_contract_safe_motherhood.jpg' />
+                    </article>
+                </div>
                 <div className='tile is-ancestor'>
                     <div className='tile is-vertical'>
                         <div className='tile'>
@@ -181,6 +185,7 @@ export const HealthPageTemplate = (props) => {
                         </div>
                     </div>
                 </div>
+
                 <HTMLContent className='content' content={content} />
             </MainSectionWrapper>
         </div>
