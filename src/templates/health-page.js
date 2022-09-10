@@ -161,7 +161,7 @@ export const HealthPageTemplate = (props) => {
                 </div>
                 <div className='is-parent'>
                     <article className='is-child'>
-                        <img src='img/2021_contract_safe_motherhood.jpg' />
+                        <img src='/img/2021_contract_safe_motherhood.jpg' />
                     </article>
                 </div>
                 <div className='tile is-ancestor'>
