@@ -32,7 +32,16 @@ export const HealthPageTemplate = (props) => {
             <MainSectionWrapper>
                 <div className='content'>
                     <div className='tile'>
-                        <h3 className='title'>The Full Report for 2021</h3>
+                        <h3 className='title'>
+                            {
+                                'New Construction! Truly exciting reports will come through once the 1st floor is complete!'
+                            }
+                        </h3>
+                    </div>
+                    <div className='tile'>
+                        <video controls style={{ width: '100%', marginBottom: '50px' }}>
+                            <source src='/video/2023_health_clinic_build.MP4' type='video/mp4' />
+                        </video>
                     </div>
                     <div className='tile'>
                         <div
@@ -45,27 +54,14 @@ export const HealthPageTemplate = (props) => {
                                 marginBottom: '80px',
                             }}
                         >
-                            <PdfLink href='/pdf/Annual-Report-2021.pdf'>
-                                Annual Report 2021.pdf.
+                            <PdfLink href='/pdf/Annual-Report-2022.pdf'>
+                                Annual Report 2022.pdf.
                             </PdfLink>
 
                             <Link to='/reports'>Click here to see all previous reports</Link>
                         </div>
                     </div>
-                    <div className='tile'>
-                        <h3 className='title'>
-                            {
-                                "The KCHEF staff extends thanks to St. Anne's Episcopal Church, Annapolis, for their extremely generous donation!"
-                            }
-                        </h3>
-                    </div>
-                    <video
-                        controls
-                        style={{ width: '100%', marginBottom: '50px' }}
-                        poster='/video/2021_chera_thankyou_poster.png'
-                    >
-                        <source src='/video/2021_chera_thankyou.mp4' type='video/mp4' />
-                    </video>
+
                     <div className='content'>
                         <div className='tile'>
                             <h1 className='title'>{mainpitch.title}</h1>
