@@ -22,6 +22,8 @@ export default function Reports() {
                 <h2> Download CHERA and KCHEF reports in PDF format </h2>
 
                 <div>
+                     <h3>2022</h3>
+                    <PdfLink href='/pdf/Annual-Report-2022.pdf'>2022 Annual Report</PdfLink>
                      <h3>2021</h3>
                     <PdfLink href='/pdf/Annual-Report-2021.pdf'>2021 Annual Report</PdfLink>
                     <PdfLink href='/pdf/Audit_report_2021_Signed.pdf'>2021 Signed Audit Report</PdfLink>
