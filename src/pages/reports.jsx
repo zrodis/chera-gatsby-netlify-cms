@@ -4,7 +4,7 @@ import { MainSectionWrapper } from '../components/MainSectionWrapper'
 
 
 export const PdfLink = ({ href, children, styles }) => (
-    <a href={href} target='_blank'>
+    <a href={href} target='_blank' >
         <button
             className='button is-medium is-primary is-outlined'
             style={{ display: 'block', margin: '5px,', ...styles }}
@@ -22,9 +22,12 @@ export default function Reports() {
                 <h2> Download CHERA and KCHEF reports in PDF format </h2>
 
                 <div>
-                     <h3>2022</h3>
+                    <h3 >2023</h3>
+                    <PdfLink href='/pdf/SMB_4_Year_Report-2309_2023.pdf'>Safe Motherhood in Busongora Report, 2018 through 2023</PdfLink>
+                    <h3>2022</h3>
+                    <PdfLink href='/pdf/Audit_report_2022-Signed_Copy.pdf'>2022 Audit Report</PdfLink>
                     <PdfLink href='/pdf/Annual-Report-2022.pdf'>2022 Annual Report</PdfLink>
-                     <h3>2021</h3>
+                    <h3>2021</h3>
                     <PdfLink href='/pdf/Annual-Report-2021.pdf'>2021 Annual Report</PdfLink>
                     <PdfLink href='/pdf/Audit_report_2021_Signed.pdf'>2021 Signed Audit Report</PdfLink>
                     <PdfLink href='/pdf/Performance Update 210728.pdf'>2021 Performance Update (July)</PdfLink>
